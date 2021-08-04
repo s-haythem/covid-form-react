@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,79 @@
   to {
     transform: rotate(360deg);
   }
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  background-color: blanchedalmond;
+}
+.form {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-around;
+  
+}
+
+.title {
+  color: rgb(11, 30, 48);
+  text-align: center;
+  margin-top: 50px;
+  border-bottom: solid;
+}
+.name {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.check {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+}
+.gender {
+  width: 100px;
+}
+.birthdate {
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.typeofvaccin {
+  width: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comment {
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mb-3 {
+  width: 500px;
+}
+.submit {
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.thanks {
+  text-align: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 20%;
 }
